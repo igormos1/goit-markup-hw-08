@@ -935,7 +935,7 @@ a {
 @media screen and (max-width: 767px) {
   .modal {
     min-height: 609px;
-    width: 100%;
+    width: 450px;
   }
 }
 
@@ -1237,10 +1237,6 @@ a {
   margin: 0;
   padding: 0;
   margin-top: 30px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
 }
 
 .benefits__text {
@@ -1266,7 +1262,7 @@ a {
 .product__title {
   color: #212121;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -1502,6 +1498,12 @@ a {
   height: 20px;
 }
 
+.socials__icon--foot {
+  width: 20px;
+  height: 20px;
+  fill: #ffff;
+}
+
 .socials__item:not(:last-child) {
   margin-right: 10px;
 }
@@ -1526,6 +1528,30 @@ a {
 }
 
 .socials__link:hover, .socials__link:focus {
+  fill: #ffffff;
+  background: #2196f3;
+}
+
+.socials__foot {
+  width: 44px;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  fill: #ffff;
+  border-radius: 50%;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials__foot:hover, .socials__foot:focus {
   fill: #ffffff;
   background: #2196f3;
 }
@@ -1578,7 +1604,7 @@ a {
 .clients__title {
   color: #212121;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
@@ -2023,7 +2049,7 @@ a {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 63px 24px;
+  padding: 24px 24px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
