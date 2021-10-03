@@ -32,6 +32,12 @@
       margin-bottom: 30px;
     }
   }
+  .benefits__title {
+    @media screen and (max-width: 767px) {
+      align-items: center;
+      text-align: center;
+    }
+  }
 
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 2 * 30px) / 2);
