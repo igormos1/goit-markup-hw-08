@@ -485,7 +485,6 @@ a {
 
 .site-nav {
   display: block;
-  margin-top: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -602,7 +601,6 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -1290,6 +1288,7 @@ a {
 @media screen and (max-width: 1199px) {
   .product__title {
     margin-bottom: 30px;
+    font-size: 28px;
   }
 }
 
@@ -1626,6 +1625,13 @@ a {
   letter-spacing: 0.03em;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients__title {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
 }
 
 .clients {
